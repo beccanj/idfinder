@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block title %}
-	<title>Get Started</title>
+	<title>Report</title>
 {% endblock %}
 
 {% block extra_css %}
@@ -59,7 +59,7 @@
                                              <td>{{ report.date_reported }}</td>
                                              <td>{{ report.status }}</td>
                                              <td>
-                                                 <a href="{% url 'submit_request' %}" class="btn btn-success btn-sm">Request</a>
+                                                 <a href="{% url 'retrieval_form'   %}" class="btn btn-success btn-sm">Request</a>
                                              </td>
                                         </tr>
                                        

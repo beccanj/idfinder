@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block title %}
-	<title>Get Started</title>
+	<title>Retrieve</title>
 {% endblock %}
 
 {% block extra_css %}
@@ -72,7 +72,7 @@
                                              <td>{{ request.report }}</td>
                                              <td>{{ request.citizen }}</td>
                                              <td>{{ request.request_date }}</td>
-                                             <td class="btn-outline-success">{{ request.is_resolved }}</td>
+                                             <td >{{ request.status }}</td>
                                              
                                         </tr>
                                        
