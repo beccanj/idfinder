@@ -1,0 +1,45 @@
+{% extends 'master.html' %}
+{% load static %}
+
+{% block title %}
+    <title>Donate</title>
+{% endblock %}
+
+
+
+{% block content %}
+    <div class="justify-content-center mt-5">
+        <form class="mx-auto w-50">
+            <div>
+                <h2 class="text-center">Donate</h2>
+            </div>
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form2Example1">Make Payment</label>
+                <input type="email" id="form2Example1" placeholder="Mpesa" class="form-control"/>
+                
+            </div>
+
+            <!-- Password input -->
+
+
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+
+
+                </div>
+
+                <!-- Submit button -->
+                <button type="button" data-mdb-button-init data-mdb-ripple-init
+                        class="btn btn-success btn-block mb-4 btn-md">Donate
+                </button>
+            </div>
+            <!-- Register buttons -->
+
+        </form>
+</div>    
+
+{% endblock %}
+

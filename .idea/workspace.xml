@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9c76a5c-f900-47c8-be52-285cef77bed0" name="Changes" comment="Contact Form, Block Titles updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idfinder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/idfinder/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idfinder/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/idfinder/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/master.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/master.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reg_citizens.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reg_citizens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;beccanj&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/beccanj/idfinder.git&quot;,
+    &quot;accountId&quot;: &quot;da5dfba0-6f08-42d5-ba19-f56eead3bf51&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2psL6PkeDoV8u7Qhc0uVWIkw3hA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.idfinder.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/PycharmProjects/idfinder&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\PycharmProjects\idfinder\main\assets\contact_assets" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\idfinder\main\assets\img" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\idfinder\main\assets\login_assets\images" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\idfinder\main\assets\login_assets" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\idfinder\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\PycharmProjects\idfinder\main\assets\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="idfinder" type="Python.DjangoServer" factoryName="Django server">
+      <module name="idfinder" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="idfinder.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9c76a5c-f900-47c8-be52-285cef77bed0" name="Changes" comment="" />
+      <created>1733549661248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733549661248</updated>
+      <workItem from="1733549701881" duration="69830000" />
+      <workItem from="1733721703392" duration="2056000" />
+      <workItem from="1733729387416" duration="3398000" />
+      <workItem from="1733804210704" duration="3775000" />
+      <workItem from="1734527945128" duration="504000" />
+      <workItem from="1734529756841" duration="594000" />
+      <workItem from="1734534397792" duration="425000" />
+      <workItem from="1734535294247" duration="1568000" />
+      <workItem from="1734539170714" duration="578000" />
+      <workItem from="1734540107890" duration="2054000" />
+      <workItem from="1734547618336" duration="1016000" />
+      <workItem from="1734794565327" duration="626000" />
+      <workItem from="1734795791262" duration="942000" />
+      <workItem from="1734801919862" duration="2003000" />
+      <workItem from="1734945118946" duration="1728000" />
+      <workItem from="1734954763705" duration="3295000" />
+      <workItem from="1734965772957" duration="1185000" />
+      <workItem from="1735377893728" duration="12343000" />
+      <workItem from="1735395226170" duration="8000" />
+      <workItem from="1737924846879" duration="302000" />
+      <workItem from="1737926660847" duration="1349000" />
+      <workItem from="1741154949319" duration="2880000" />
+      <workItem from="1741427169409" duration="165000" />
+      <workItem from="1741429773759" duration="26000" />
+      <workItem from="1742470820903" duration="26000" />
+      <workItem from="1743448350190" duration="8000" />
+      <workItem from="1743448365902" duration="6389000" />
+    </task>
+    <task id="LOCAL-00001" summary="Contact Form, Block Titles updated">
+      <option name="closed" value="true" />
+      <created>1733815686151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733815686151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Contact Form, Block Titles updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact Form, Block Titles updated" />
+  </component>
+</project>

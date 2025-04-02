@@ -1,0 +1,94 @@
+{% extends 'master.html' %}
+{% load static %}
+
+{% block title %}
+	<title>Retrieve</title>
+{% endblock %}
+
+{% block extra_css %}
+    <!-- Custom styles for this page -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="col-md-6 mx-auto">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title text-center mt-5 mb-5 lh-1">Find your ID with <span class="text-primary fw-bold">IDFinder</span> today!</h3>
+						<div class="pull-right">
+							<span class="clickable filter" data-toggle="tooltip" title="Toggle table filter" data-container="body">
+								<i class="glyphicon glyphicon-filter"></i>
+							</span>
+						</div>
+					</div>
+					<div class="panel-body">
+						<input type="text" class="form-control" id="task-table-filter" data-action="filter" data-filters="#task-table" placeholder="Search for ID number, Name..." />
+					</div>
+{#					<table class="table table-hover" id="task-table">#}
+{#						<thead>#}
+{#							<tr>#}
+{#                                <th>Report</th>#}
+{#                                <th>Citizen Name</th>#}
+{#                                <th>Request Date</th>#}
+{#                                <th>Resolved</th>#}
+{#							</tr>#}
+{#						</thead>#}
+{#						<tbody>#}
+{#							{% for request in requests %}#}
+{#                                <td>{{ request.report }}</td>#}
+{#                                <td>{{ request.citizen }}</td>#}
+{#                                <td>{{ request.request_date }}</td>#}
+{#                                <td>{{ request.is_resolved }}</td>#}
+{#                                <td>#}
+{#                                    <a href="{% url 'submit_request' %}" class="btn btn-outline-success btn-sm"></a>#}
+{#                                </td>#}
+{#							{% endfor %}#}
+{#							#}
+{#						</tbody>#}
+{#					</table>#}
+                    <table class="table table-hover" id="task-table">
+                        <thead>
+                                        <tr>
+                                            <th>Report</th>
+                                            <th>Citizen Name</th>
+                                            <th>Request Date</th>
+                                            <th>Request Status</th>
+                                        </tr>
+                                    </thead>
+{#                                    <tfoot>#}
+{#                                        <tr>#}
+{#                                            <th>First Name</th>#}
+{#                                            <th>Last Name</th>#}
+{#                                            <th>National ID</th>#}
+{#                                            <th>Phone No.</th>#}
+{#                                            <th>Email</th>#}
+{#                                            <th>Report</th>#}
+{#                                        </tr>#}
+{#                                    </tfoot>#}
+                                    <tbody>
+                                    {% for request in requests %}
+                                    	 <tr>
+                                             <td>{{ request.report }}</td>
+                                             <td>{{ request.citizen }}</td>
+                                             <td>{{ request.request_date }}</td>
+                                             <td >{{ request.status }}</td>
+                                             
+                                        </tr>
+                                       
+                                    {% endfor %}
+                                    
+							
+						</tbody>
+					</table>
+{#                <button type="button" class="btn btn-success" data-mdb-ripple-init>Submit a Retrieval Request</button>#}
+				</div>
+			</div>
+{% endblock %}
+
+{% block extra_js %}
+        <!-- Page level plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+{% endblock %}
